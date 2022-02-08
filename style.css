@@ -1,0 +1,54 @@
+header .header-banner {
+    background-image: url("img/header.jpeg");
+    width: 100%;
+    height: calc(100vh - 400px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+header .logo{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+header h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #e6c580;
+    text-transform: uppercase;  
+}
+
+header h2{
+    font-family: 'Gentium Basic', serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    color: #e6c580;
+    line-height: 70px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px #5c4f39;
+    text-align: center;
+}
+header h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #e6c580;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px #5c4f39;
+    text-align: center;
+}
+hr {
+    color: #4f5663;
+    border-width: 2px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
