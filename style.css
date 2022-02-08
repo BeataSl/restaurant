@@ -20,19 +20,19 @@ header h1{
     font-weight: 300;
     font-size: 15px;
     letter-spacing: 5px;
-    color: #e6c580;
+    color:#b66b77;
     text-transform: uppercase;  
 }
 
 header h2{
     font-family: 'Gentium Basic', serif;
-    font-weight: 700;
+    font-weight: normal ;
     font-style: normal;
-    font-size: 60px;
-    color: #e6c580;
-    line-height: 70px;
+    font-size: 50px;
+    color:#b66b77 ;
+    line-height: 40px;
     text-transform: uppercase;
-    text-shadow: 2px 2px 8px #5c4f39;
+    text-shadow: 2px 2px 6px #9a9a9a;
     text-align: center;
 }
 header h3{
@@ -40,15 +40,102 @@ header h3{
     font-weight: 300;
     font-size: 15px;
     letter-spacing: 5px;
-    color: #e6c580;
+    color: #b66b77;
     text-transform: uppercase;
-    text-shadow: 2px 2px 8px #5c4f39;
+    text-shadow: 2px 2px 6px #9a9a9a;
     text-align: center;
+    font-style: italic;
 }
 hr {
     color: #4f5663;
     border-width: 2px;
-    width: 30%;
+    width: 43%;
     margin: 0 auto;
     margin-bottom: 5px;
+}
+
+nav ul li a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: #172029;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 16px 16px;  
+}
+
+.column-info {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #172029;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.column-info2 {
+    font-family: font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+.gallery-image img {
+    display: block;
+    width:100%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.gallery-image {
+    border-radius: 50%;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    -webkit-flex-basis: 300px;
+    -moz-flex-basis: 300px;
+    flex-basis: 300px;   
+} 
+
+.post-header {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: black;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.gallery-links {
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+    -o-flex-flow: row wrap;
+    justify-content: center;
 }
