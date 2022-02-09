@@ -98,34 +98,40 @@ header nav ul li {
 
 
 .gallery-image img {
-    display: block;
     width:100%;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
+    filter: brightness(50%);
 }
+
+
+
 .gallery-image {
     border-radius: 50%;
-    margin: 10px;
+    margin: 25px;
     position: relative;
     text-align: center;
     -webkit-flex-basis: 300px;
     -moz-flex-basis: 300px;
-    flex-basis: 300px;   
+    flex-basis: 300px;
+
+    
 } 
 
 .post-header {
     font-family: "Open Sans", sans-serif;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 22px;
     letter-spacing: 3px;
     line-height: 24px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 6px #9a9a9a; 
 
 }
 .gallery-links {
@@ -138,4 +144,42 @@ header nav ul li {
     justify-content: center;
     -o-flex-flow: row wrap;
     justify-content: center;
+}
+
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    background-color: #4e2533;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+
+.mail {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer .footer-info {
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    width: fit-content;
+    float: left;
+    padding-left: 0px;
+    display: block;
+    padding: 0 0 10px 0;
+    font-weight: 100;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: none;
+
+}
+
+.footer-sm {
+    width: 32px;
+    float: right;
+}
+.footer-sm img {
+    width: 100%;
+    margin-bottom: 10px;    
 }
