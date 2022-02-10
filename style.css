@@ -77,24 +77,38 @@ header nav ul li {
     padding: 16px 16px;  
 }
 
-.column-info {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 3px;
-    color: #172029;
-    text-transform: uppercase;
-    text-decoration: none;
+.column {
+    margin-right: 50px;
 }
-.column-info2 {
-    font-family: font-family: 'Zen Kaku Gothic Antique', sans-serif;
+
+
+
+.meist2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
     font-size: 15px;
+    letter-spacing: 1px;
+    color: #172029;
+    text-decoration: none;
+    padding-left: 35px;
+}
+.meist{
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
     letter-spacing: 1px;
     color: black;
     text-transform: none;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: 300;
+    padding-left: 35px;
+
+
+
 }
+/*     float: left;
+    width: 50%;
+    margin-right: 20px;
+*/
 
 
 .gallery-image img {
@@ -182,4 +196,20 @@ footer .footer-info {
 .footer-sm img {
     width: 100%;
     margin-bottom: 10px;    
+}
+
+
+@media only screen and (min-width: 950px) {
+    .shaped {
+        background: black url("img/header2.png") center  no-repeat;
+        height: 50%;
+        width: 50%;
+        background-size: cover;
+        float: right;
+        margin-top: 50px;
+        margin-right: 50px;
+        margin-left: 30px;
+        height: 100vh;
+        width: 100vw;
+    }
 }
