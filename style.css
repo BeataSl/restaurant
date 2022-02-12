@@ -2,21 +2,10 @@
     list-style: none;
 }
 
-.gallery-links ul:after {
-    content: "";
-    display: table;
-
-  }
-
 .gallery-links ul li{
     width: 100%;
     float: left;
     position: relative;
-}
-.gallery-links ul li img{
-    display: block;
-    width: 100%;
-    transition: .5s ease-in-out;
 }
 
 .gallery-links ul li:nth-child(1):hover img {
@@ -40,14 +29,12 @@ span {
     text-shadow: 2px 2px 6px #9a9a9a;
 }
 
-
 @media (max-width:480px) {
     .gallery-links ul li {
       width: 100%;
       float: none;
     }
 }
-
 
 header .header-banner {
     background-image: url("img/header.jpeg");
@@ -57,13 +44,6 @@ header .header-banner {
     background-position: center;
     background-size: cover;
     display: table;
-}
-
-header .logo{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    padding: 10px 0 20px 0;
 }
 
 header h1{
@@ -132,8 +112,6 @@ header nav ul li {
     margin-right: 50px;
 }
 
-
-
 .meist2 {
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
@@ -143,6 +121,8 @@ header nav ul li {
     text-decoration: none;
     padding-left: 35px;
     padding-right: 10px;
+    line-height: 25px;
+    
 }
 .meist{
     font-family: "Open Sans", sans-serif;
@@ -153,15 +133,7 @@ header nav ul li {
     text-decoration: none;
     font-weight: 300;
     padding-left: 35px;
-
-
-
 }
-/*     float: left;
-    width: 50%;
-    margin-right: 20px;
-*/
-
 
 .gallery-image img {
     width:100%;
@@ -171,8 +143,6 @@ header nav ul li {
     filter: brightness(50%);
 }
 
-
-
 .gallery-image {
     border-radius: 50%;
     margin: 25px;
@@ -181,8 +151,6 @@ header nav ul li {
     -webkit-flex-basis: 300px;
     -moz-flex-basis: 300px;
     flex-basis: 300px;
-
-    
 } 
 
 .post-header {
@@ -203,13 +171,8 @@ header nav ul li {
 .gallery-links {
     display: flex;
     flex-flow: row wrap;
-    display: -webkit-flex;
+    justify-content: center;
     -webkit-flex-flow: row wrap;
-    display: -moz-flex;
-    -moz-flex-flow: row wrap;
-    justify-content: center;
-    -o-flex-flow: row wrap;
-    justify-content: center;
     margin-top: 130px;
 }
 
@@ -220,7 +183,6 @@ footer {
     margin-top: 20px;
     overflow: hidden;
 }
-
 
 .mail {
     color: rgb(255, 255, 255);
@@ -239,7 +201,6 @@ footer .footer-info {
     font-size: 13px;
     letter-spacing: 2px;
     text-transform: none;
-
 }
 
 .footer-sm {
@@ -251,24 +212,18 @@ footer .footer-info {
     margin-bottom: 10px;    
 }
 
-
 @media only screen and (min-width: 950px) {
     .shaped {
         background-image: url("img/header22.png");
         float: right; 
         width: 330px;
         height: 240px;
-        margin-top: 10px;
+        margin-top: 50px;
         margin-left: 75px;
         margin-right: 35px;
         background-repeat: no-repeat;
         background-size: cover;
-
+        box-shadow: 10px 20px 40px 5px #c8949b;
+        border-radius: 1%;
     }
-   .shaped img{
-        width:100%;
-        height:auto;
-        
-    }
-
 }
