@@ -36,3 +36,92 @@ footer {
     margin-top: 60px;
     padding: 5em;
 }
+
+.map-container-6 {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    
+}
+
+.pay .container {
+    border-style: ridge;
+    border-radius: 10px;
+    height: 100vh
+
+}
+/*.pay .card {
+    border: none;
+} */
+
+.pay .form-control {
+    border-bottom: 2px solid #eee !important;
+    border: none;
+    font-weight: 600
+}
+
+.pay .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #8bbafe;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 0px;
+    border-bottom: 2px solid blue !important
+}
+
+.inputbox {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.inputbox span {
+    position: absolute;
+    top: 7px;
+    left: 11px;
+    transition: 0.5s
+}
+
+.inputbox i {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+    transition: 0.5s;
+    color: #3F51B5
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.inputbox input:focus~span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px
+}
+
+.inputbox input:valid~span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px
+}
+
+.col-md-4 img {
+    border:2px solid #fff;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+}
