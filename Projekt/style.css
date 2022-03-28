@@ -1,0 +1,45 @@
+.h {
+  text-align: center;
+}
+
+.font-weight-normal {
+  font-weight: 500!important;
+}
+
+
+.card-img{
+  border-radius: 25px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  display: block;
+}
+
+
+.col h2{
+  font-size: 25px;
+  margin-top: 8px;
+}
+
+.col li,p{
+  font-size: 15px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.row{
+ border: 0.50px solid rgb(0, 0, 0);
+ padding: 20px; 
+ border-radius: 25px;
+ margin-top: 50px;
+
+}
+
+.container .h{
+  margin-top: 20px;
+}
+
+.container{
+  padding: 0px 100px;
+}
